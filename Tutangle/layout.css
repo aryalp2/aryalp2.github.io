@@ -1,0 +1,174 @@
+html,
+body {
+    background-color: whitesmoke;
+    width: 100%;
+    max-height: 1100px;
+}
+
+/*header{
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+*/
+.header1{
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    height: 85px
+}
+
+.header2{
+    background-color: gray;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.header1a{
+    background-color: red;
+    float: left;
+    width: 223px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.header1b{
+    background-color: burlywood;
+    float: left;
+    width: 461px;
+    height: 37px;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.header1c{
+    background-color: darkturquoise;
+    float: right;
+    width: 318px;
+    height: 37px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-left: 215px;
+}
+
+.name{
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
+
+
+.misc{
+    background-color: firebrick;
+    
+}
+
+.navigation{
+    background-color: darkseagreen;
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+    width: 480px;
+    height:15px
+}
+
+.topic{
+    background-color: chartreuse;
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 130px;
+    height: 15px;
+}
+
+section{
+    background-color: cornflowerblue;
+    margin-top: 30px;
+}
+
+.section1{
+    background-color: dimgray;
+    width: 195px;
+    height: 605px;
+    margin-left: 32px;
+    float: left;
+    
+}
+
+.section1aa,
+.section3a,
+.section1ba{
+    background-color: aqua;
+    height: 42px;
+}
+
+.section1ab{
+    height: 45px;
+}
+
+
+.section1bb,
+.section3ba{
+    height: 33px;
+}
+
+.section1bba{
+    height: 50px;
+}
+
+.section2{
+    height: 605px;
+    margin-right: 26px;
+    margin-left: 24px;    
+    float: left;
+    width: 863px;
+}
+
+.section2{
+    background-color: gray;
+}
+.section2a{
+    height: 37px;
+    background-color: lightgray;
+}
+
+.section2baa{
+    height: 37px;
+    background-color: darkslategray
+}
+.section2bab{
+    height: 32px;
+}
+
+.section2bb{
+    height: 101px;
+    background-color: darkgoldenrod
+}
+
+.section2bbaa{
+    background-color: crimson;
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+
+.section2bbab{
+    background-color: chartreuse;
+    height: 45px;
+    width: 578px;
+}
+
+.section3{
+    background-color: dimgray;
+    width: 178px;
+    height: 605px;
+    margin-right: 31px;
+    float: right;
+}
+
+
+.footer1{
+    height: 45px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 32px;
+}
