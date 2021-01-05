@@ -126,6 +126,7 @@ section{
 
 .section2{
     background-color: gray;
+    overflow:hidden;
 }
 .section2a{
     height: 37px;
@@ -172,5 +173,4 @@ section{
     float: left;
     margin-top: 14px;
     margin-left: 32px;
-    background-color: lightgray;
 }
