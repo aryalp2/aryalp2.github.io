@@ -2,7 +2,7 @@ html,
 body {
     background-color: whitesmoke;
     width: 100%;
-    max-height: 1100px;
+    max-height: 150%;
 }
 
 /*header{
@@ -83,6 +83,7 @@ body {
 section{
     background-color: cornflowerblue;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .section1{
