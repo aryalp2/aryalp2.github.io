@@ -69,7 +69,7 @@
 }
 
 .action{
-    list-style: none;
+    list-style: none;url
     float: right;
     margin-top: -65px;
 }
@@ -195,11 +195,11 @@ span{
 }
 
 .left-image {
-  background: url("images/Tutangle-AllEntries_03.jpg") top left no-repeat;
+  background: url("Images/Tutangle-AllEntries_03.jpg") top left no-repeat;
 }
 
 .right-image {
-  background: url("images/Tutangle-Subscribed_03.jpg") top right no-repeat;
+  background: url("Images/Tutangle-Subscribed_03.jpg") top right no-repeat;
   padding: 0px 10px;
   overflow: hidden;
 }
@@ -232,11 +232,11 @@ span{
 }
 
 .left-button-image {
-  background: url("images/Tutangle-SmallLeftCurve_03.jpg") top left no-repeat;
+  background: url("Images/Tutangle-SmallLeftCurve_03.jpg") top left no-repeat;
 }
 
 .right-button-image {
-  background: url("images/Tutangle-SmallRightCurve_03.jpg") top right
+  background: url("Images/Tutangle-SmallRightCurve_03.jpg") top right
     no-repeat;
   padding: 0px 10px;
 }
@@ -254,11 +254,11 @@ span{
 }
 
 .left-button-image.active {
-  background: url("../images/small-curve-left.png") top left no-repeat;
+  background: url("Images/Tutangle-SmallLeftColorCurve.jpg") top left no-repeat;
 }
 
 .right-button-image.active {
-  background: url("../images/small-curve-right.png") top right no-repeat;
+  background: url("Images/Tutangle-SmallRightColorCurve.jpg") top right no-repeat;
 }
 
 .right-button-image.active a {
