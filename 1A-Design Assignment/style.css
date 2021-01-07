@@ -1,0 +1,209 @@
+.search-input{
+	background: url(Images/Tutangle-Searchbar.png) no-repeat; 
+	width: 276px;
+	float: left;
+}
+.search-input input{
+	width: 239px; 
+	background-color: transparent; 
+	border: 0 solid; 
+	padding: 3px 8px;
+	font-size: 11px;
+}
+.search-input input:focus{
+	outline: none;
+}
+.search-button a{
+	font-size: 9px;
+	color: #fff;
+	padding: 3px 5px 5px 8px;
+	display: block;
+}
+.user-nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.user-nav ul li{
+	width: auto;
+	float: left;
+	padding: 0px 5px;
+}
+
+.usernav ul:last-child{
+	padding: 0px 0px 0px 5px;
+}
+.tasks ul{
+	list-style: none;
+	margin:0;
+	padding: 0px;
+}
+.tasks ul li{
+	float: left;
+	margin: auto;
+	padding: 0px 15px;
+}
+
+.tasks ul li:hover{
+    background-color: #7dd9e8;
+    height: 15px;
+    
+    
+}
+
+.notification ul{
+	list-style: none;
+	margin: 0px;
+}
+.notification ul li{
+	float: left;
+	width: auto;
+	color: #aaa;
+}
+.notification ul li:active{
+	color:#000;
+}
+.notification ul li:first-child{
+	background-image: url("Images/Tutangle-Invitation.jpg");
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	margin-right: 31px;
+}
+.notification ul li:last-child{
+	background-image: url("Images/Tutangle-FriendRequest.jpg");
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.notification ul li.enabled{
+	color:#000;
+}
+.box-list ul{
+	list-style: none;
+	font-size: 11px;
+}
+.box-list ul li{
+	width: 189px;
+	padding: 0px 2.5px;
+	display: table;
+	content: "";
+}
+.box-list ul li:hover{
+	background-color: #fff;
+}
+.box-list ul li a:first-child{
+	float: left;
+	width: 137px;
+	padding: 10px 8.5px;
+}
+.box-list ul li a:last-child img{
+	float: right;
+	padding: 10px;
+}
+.heading{
+	font-size: 26px;
+	/*background-color: red;*/
+	line-height: 0px;
+	margin-bottom: 12px;
+	padding:10px 0px 9px 0px;
+}
+.tabs ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.tabs ul li{
+	width: 110px;
+	float: left;
+	margin: 0px 5px;
+	padding: 0px 2px;
+	background-image: url("Images/Tutangle-Inactive.png");
+	background-repeat: no-repeat;
+	font-size: 11px;
+}
+.tabs ul .active{
+	background-image: url("Images/Tutangle-Activebody.png");
+	background-repeat: no-repeat;
+	font-size: 11px;
+}
+.tabs ul li a{
+	display: block;
+	text-align: center;
+}
+.tabs ul .active a{
+	color: #fff;
+	display: block;
+}
+.tabs ul li a{
+	line-height: 28px;
+}
+.tabs ul li:hover{
+	background-image: url("Images/Tutangle-Activebody.png");
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 11px;
+}
+.tabs ul li:hover a{
+	color: #fff;
+}
+.info h2{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.info ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	font-size: 13px;
+	line-height: 20px;
+}
+.info ul li{
+	float: left;
+	padding: 0px 5px;
+}
+.info ul li:first-child{
+	padding: 0px 5px 0px 0px;
+}
+
+
+.info ul li a{
+	color:#309db2;
+}
+.info ul li:last-child{
+	padding: 0px 0px 0px 5px;
+}
+.info ul li:last-child a{
+	color: #8fb057;
+}
+.info p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.info p span{
+	color: #309db2;
+}
+.entry{
+	font-size: 11px;
+	line-height: 11px;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 11px;
+	color:#309db2;
+}
+.comment{
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 11px;
+	color:#309db2;
+}
+.hot-invite{
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 11px;
+	color:#d43e1b;
+}
+.list-video-tutorial ul li{
+	width: 152px;
+	padding: 0px 12px;
+}
