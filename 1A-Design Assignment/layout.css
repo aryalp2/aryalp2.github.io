@@ -85,6 +85,7 @@
 .col3-inner-right{
 	width: 176px;
 	float: right;
+	margin-left: 25px;
 }
 .tab-wrapper{
 	background-image: url("Images/Tutangle-BackTab.png");
