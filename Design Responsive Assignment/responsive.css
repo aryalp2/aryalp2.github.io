@@ -1,0 +1,125 @@
+@media only screen and (min-width: 480px){
+    .page-wrapper{
+        width: 30em;
+    }
+    .header-wrapper{
+        width: 30em;
+    }
+    
+    .body-wrapper{
+        width: 30em;
+    }
+    
+    .left-holder{
+        float: none;
+        display: none;
+    }
+    
+    .main{
+        float: none;
+        width: 100%;
+    }
+    
+    .right-holder{
+        float: none;
+    }
+    
+    .col3-left{
+        width: auto;
+    }
+    
+    .col3-inner-right{
+        float: none;
+        margin-left: 0px;
+        display: none;
+    }
+    
+    .search{
+        display: none;
+    }
+    
+    .logo{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    
+    .footer-wrapper{
+        width: 30em;
+    }
+    
+    .footer-container{
+        width: 15.5089820359281437em;
+    }
+    
+    .user-info{
+        display: none;
+    }
+
+    .header-bottom-extended{
+        display: none;
+    }
+    
+    .holder{
+        width: auto;
+    }
+    
+    .right-holder{
+        width: auto;
+    }
+    
+    .nav-options{
+        font-weight: bold;
+        display: block;
+        margin: 6px auto;
+        text-align: center;
+        padding: 10px;
+        background-color: #dadada;
+    }
+    
+    .img{
+        float: right;
+        overflow: hidden;
+    }
+    
+    .nav-options ul{
+        display: block;
+        list-style: none;
+        display: none;
+        margin: 0;
+        padding: 0px;
+        
+    }
+    
+	.nav-options ul li{
+		padding: 10px;
+		font-size: 11px;
+	}
+    
+    .nav-options ul li a{
+		display: block;
+	}
+    
+	.nav-options ul li:hover{
+		background-color: #7dd9e8;
+	}
+	
+    
+    .nav-options:hover ul{
+        display: block;
+    }
+    
+    .notification {
+		float: none;	
+	}
+	.notification ul{
+		display: table;
+		content: "";
+		float: right;
+	}
+	.userinfo{
+		display: none;
+	}
+    
+    
+}
