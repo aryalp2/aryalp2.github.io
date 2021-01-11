@@ -252,46 +252,36 @@
         margin: 0 0 59px 15%;
     }
 
-   
+    .process-left-bottom1 div{
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .example-showcase{
+        width:80%;
+        margin: 0 auto;
+    }
+    
+
+    .browse{
+        padding: 1.5% 0%;
+    }
+
+    .browse p{
+        margin: 0% 30%;
+    }
+    
+    .final-icons li{
+        display: inline-block;
+    }
+    
+    .news-letter p{
+        margin-top: 5px;
+    }
+    
+    .news-letter form{
+        margin-top: -80px;
+    }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
