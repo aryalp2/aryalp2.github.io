@@ -1,0 +1,467 @@
+header{
+    background-color: #333;
+    line-height: 45px;
+    width: 100%;
+}
+
+.headerA{
+    display: none;
+}
+
+.contactA{
+    display: none;
+}
+
+
+.nav-options-ul,
+.menu-ul{
+    display: none;
+}
+
+.navigation{
+    display: none;
+}
+
+
+ion-icon{
+    color: darkgray;
+}
+
+ion-icon:hover{
+    color: #fd2e2e;
+}
+
+.menu:hover .menu-ul,
+.nav-options:hover .nav-options-ul{
+    display: block;
+}
+
+.page1{
+    background-color: #ededed;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+}
+
+.birdimg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 2px solid #fd2e2e;
+    padding-bottom: 18px;
+    margin-bottom: 17px;
+}
+
+.text{
+    margin-top: 108px;
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.get-started{
+    
+    font-weight: 300;
+    background-color: #fd2e2e; 
+}
+
+.design{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 88px;
+    font-weight: 400;
+    margin-left: 102px;
+}
+
+.get-started a{
+    color: #fff;
+    font-size: 60%;
+}
+
+.money-guarantee {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 70%;
+    font-weight: 600;
+}
+
+.money-guarantee ion-icon{
+    color: #fd2e2e;
+    margin-left: 65px;
+    
+}
+
+/* SECTION DESIGN */
+
+.section-design{
+    padding:0 2%;
+}
+
+.section-design h2{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.design-showcase{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.design-showcase li{
+    display: block;
+    float: left;
+   /*width: 30%;*/
+}
+
+.design-photo{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.design-photo img{
+    width: 95%;
+}
+
+
+.black{
+    background-color: #000;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.view-all-categories{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: 400;
+}
+
+.black h2{
+    font-size: 90%;
+}
+
+.black p{
+    font-size: 40%;
+    margin: 0 15px;
+}
+
+.black img{
+    margin: 0 25px;
+}
+
+
+/*  DESIGN MADE EASY */
+
+.page3 h2{
+    margin-top: 80px;
+    font-size: 100%;
+}
+
+
+.page3 img{
+    margin: 20px 170px 30px 170px;
+}
+
+.page3 p{
+    font-size: 60%;
+}
+
+
+.process-left-top,
+.process-left-bottom{
+    font-size: 70%;
+}
+
+.process-left-top p,
+.process-left-bottom p{
+    font-size: 85%;
+    text-align: justify;
+}
+
+.process-right img{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.process-left-top{
+    margin: 25px 0;
+}
+
+.process-left-bottom1{
+    margin: 25px 0;
+}
+
+
+/* EXAMPLES OF GRAPHIC DESIGN */
+.section-example{
+    background-color: #ededed;
+}
+
+.section-example h2{
+    font-size: 80%;
+    color: #2a2a2a;
+}
+
+.slider{
+    margin-bottom: 60px;
+}
+
+
+.slider-left{
+    display: inline-block;
+    font-weight: 300;
+    color: #fff;
+    padding: 1.5% 5.25%;
+    width: auto;
+    height: auto;
+    /*width: 20%;
+    height: 20%;*/
+    background-color: #2a2a2a; 
+    float: right;
+    margin: 0 0.8%;
+}
+
+.slider-left:hover{
+    background-color: #fd2e2e;
+}
+
+
+.example-showcase{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.example-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.example-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.example-photo img{
+    opacity:0.6;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.example-photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.example-photos{
+    margin-bottom: 60px;
+}
+
+.browse{
+    padding: 1.5% 0%;
+}
+
+.browse p{
+    margin: 0% 20%;
+}
+
+.page4-bottom{
+    margin-bottom: 80px;
+}
+
+
+/*TESTIMONIALS*/ 
+.testimonials1 h2{
+    margin-top: 80px;
+    font-size: 100%;
+}
+
+
+.testimonials1 img{
+    margin: 20px 170px 30px 170px;
+}
+
+.testimonials1 p{
+    font-size: 60%;
+}
+
+.testimonials2 img{
+    width: 100%;
+    margin-top: 28px;
+}
+
+.testimonials3 div{
+    text-align: center;
+    font-size: 40%;
+    margin: 0 auto;
+    
+}
+
+.testimonials4{
+    margin: 0 auto;
+}
+
+
+.imageslider-left{
+    display: inline;
+    font-weight: 300;
+    color: #fff;
+    padding: 0.5% 1%;
+    width: 20%;
+    height: 20%;
+    background-color: #2a2a2a; 
+    margin: 0 auto;
+    font-size: 70%;
+    
+}
+
+.testimonials4{
+    margin: 80px 0 60px auto;
+    margin-left: 46%;
+    
+}
+
+.imageslider-left:hover{
+    background-color: #fd2e2e;
+}
+
+.page5 img{
+    width: 100%;
+}
+
+.offer{
+    margin-top: 10%;
+}
+
+.offer h2{
+    font-size: 100%;
+    margin-bottom: 5%;
+    
+}
+span{
+    color: #fd2e2e;
+}
+
+.offer p{
+    font-size: 60%;
+    color: #000;
+    margin-bottom: 5%
+}
+
+
+
+.submit{
+    float:left;
+    color: #fff;
+    font-weight: 400;
+    
+    padding: 5px;
+    margin-top: 5%;
+    
+}
+
+
+/*FINAL TOUCH*/
+
+.page6{
+    background-color: #ededed;
+    margin-top: 0px;
+}
+
+.page6 p{
+    font-size: 80%;
+    margin: 10% 0 10% 0;
+    text-align: justify;
+}
+
+.page6 h2{
+    font-size: 100%;
+    text-align: left;
+    margin-top: 15%; 
+}
+
+.page6 ion-icon{
+    border: 1px solid #e0e0e0;
+}
+
+.quick-links a,
+.my-account a{
+    color: #2a2a2a;
+}
+
+.quick-links a:hover,
+.my-account a:hover {
+    color: #fd2e2e;
+}
+
+.page6 form{
+    padding: 2% 0;
+}
+
+.signupA{
+    width: 15%;
+    padding: 0 2%;
+    margin-bottom: 10%
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #5a5a5a;
+}
+
+.footer-content{
+    color: #dadada;
+    font-size: 45%;
+}
+
+.footer-content li,
+.footer-nav li{
+    display: inline-block;
+    margin-right: 2.5%
+}
+
+.footer-nav{
+    font-size: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
