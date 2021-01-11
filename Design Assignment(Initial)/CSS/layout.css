@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: #dadada;
+    font-size: 70%;
+}
+
+a:hover{
+    color: #fd2e2e;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    display: block;
+}
