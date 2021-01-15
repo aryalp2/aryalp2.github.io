@@ -1,0 +1,442 @@
+/* For tablet */
+
+@media screen and (min-width: 760px) {
+    html,
+    body{
+        min-width: 760px;
+
+    }
+    
+    .birdimg{
+        margin-top: 20%;
+        width: 50%;
+    }
+    
+    
+    
+    .design-photo{
+        width: 100%;
+        margin-left: 12%;
+    }
+
+    .design-photo img{
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+    .view-all-categories{
+        margin-left: 30%;
+    }
+
+    
+    .money-guarantee {
+        margin: 30px 0% 0 50%;
+        font-size: 60%;
+        font-weight: 600;
+        padding-bottom: 113px;
+    }
+
+    .money-guarantee ion-icon{
+        color: #fd2e2e;
+        margin-left: 65px;
+
+    }
+    
+    
+    
+    .footer-nav{
+        font-size: 65%;
+        margin-left: 5.1956%;
+        
+    }
+    
+    footer-nav li{
+        margin-right: 0%;
+    }
+    
+    
+
+
+/* For Standard Desktop */
+
+@media screen and (min-width: 1140px){
+    
+    html,
+    body{
+        min-width: 1140px;
+    }
+    
+    .headerB{
+        display: none;
+    }
+    
+    .headerA{
+        display: contents;
+    }
+    
+    .contactA{
+        display: contents;
+    }
+    
+    .social-iconsA li,
+    .contactA li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .page1 .logo{
+        margin:0;
+    }
+    
+    .page1-top-wrapper{
+        margin-top: 31px;
+    }
+    
+    .navigation{
+        display: contents;
+    }
+    
+    .navigation li{
+        display: inline-block;
+    }
+    
+    .navigation li a{
+        color: #000;
+        font-size: 45%;
+        margin-right: 10px;
+    }
+    
+    .navigation li a:hover{
+        color: #fd2e2e;
+    }
+    
+    .birdimg{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80px;
+        padding-bottom: 25px;
+        margin-bottom: 17px;
+        margin-top: 192px;
+    }
+    
+    .text{
+        margin: 20px 0 108px 0;
+        font-weight: 700;
+    }
+    
+    .row2 .get-started{
+        margin-left: 41%;
+    }
+    
+    .money-guarantee{
+        margin-left: 29.5%;
+        margin-bottom: 113px;
+    }
+    
+    .section-design h2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .paragraph1{
+        margin-top: 55px;
+        margin-bottom: 57px;
+        margin-left: 10%;
+        font-size: 70%;
+    }
+    
+    
+    .design-showcase li{
+        float: left;
+        width: 33%;
+        
+    }
+
+    .design-photo{
+        width: 100%;
+        margin: 4% 4% ;
+        overflow: hidden;
+    }
+
+    .design-photo img{
+        width: 95%;
+        
+    }
+    
+    .view-all-categories{
+        margin: 40px 0 80px 39%;
+    }
+    
+    .black{
+        height: 230px;
+    }
+    
+    .black h2{
+        font-size: 150%;
+        margin-right: 19%;
+        font-weight: 400;
+    }
+
+    .black p{
+        font-size: 40%;
+        margin: 0 25px 0 auto;
+    }
+
+    .black img{
+        margin: 30px 25px 23px 65px;
+    }
+
+        
+    .page3 h2{
+        margin-top: 80px;
+        font-size: 100%;
+    }
+    
+    .made-easy{
+        padding-bottom: 80px;
+    }
+
+    .page3 p{
+        font-size: 60%;
+        margin: 0 auto 59px auto;
+        text-align: center;
+    }
+    
+    .process-left-top h2{
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    
+    .process-left-bottom1 div{
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .process-right img{
+        margin-top: 20px;
+        height: 310px;
+    }
+    
+
+    
+    .example-showcase{
+        width:100%;
+        margin: 0 auto;
+    }
+    
+
+    .browse{
+        padding: 1.5% 0%;
+    }
+    
+    .browse{
+        display: inline-block;
+        width: 30%;
+        margin-left: 35%;
+        font-weight: 400;
+
+}
+
+    .browse p{
+        margin: 0% 0% 0% 20%;
+        padding: 0;
+    }
+    
+    .testimonials1 p{
+        margin-left: 22%;
+    }
+    
+    .page5{
+        display: none;
+    }
+    
+    .page5A{
+        display: contents;
+    }
+    
+     .page5A img{
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .offerA{
+        margin-top: 58px;
+    }
+
+    .offerA h2{
+        font-size: 100%;
+        margin-bottom: 5%;
+        text-align: left;
+
+    }
+    span{
+        color: #fd2e2e;
+    }
+
+    .offerA p{
+        font-size: 55%;
+        color: #000;
+        margin-bottom: 5%;
+    }
+    
+    .submissionA{
+        margin-top: 58px;
+        margin-left: 40px;
+        margin-bottom: 100px
+    }
+    
+    .submitA{
+        margin-top: 58px;
+        color: #fff;
+        font-weight: 400;
+        background-color: #fd2e2e;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        transition: background-color 0.2s;
+    }
+    
+    
+    .submitA:hover{
+        color: #fd2e2e;
+        background-color: #ff9898;
+    }
+    
+    .page5A input{
+        width: 94%;
+        box-sizing: border-box;
+        padding: 4%;
+        margin-left: 3%;
+    
+    }  
+    
+    .page6{
+        display: none;
+    }
+    
+    
+    .final-icons li{
+        display: inline-block;
+    }
+    
+    .news-letter p{
+        margin-top: 5px;
+    }
+    
+    .news-letter form{
+        margin-top: -80px;
+    }
+    
+    .page6A{
+        background-color: #ededed;
+        margin-top: 0px;
+        display: block;
+        padding-bottom: 113px;
+    }
+    
+    
+    
+    
+    .page6A p {
+        font-size: 12px;
+        margin: 10% 10% 10% 0;
+        text-align: justify;
+        padding: 2%;
+    }
+    
+    .page6A img{
+        margin-right:0;
+        margin-left: 0;
+    }
+
+    .page6A h2{
+        font-size: 95%;
+        text-align: left; 
+    }
+
+    .final-icons li{
+        border: 1px solid #e0e0e0;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 1%;
+    }
+    
+    .final-icons ion-icon:hover{
+        color: white;
+        background-color: #fd2e2e;
+    }
+
+    .quick-links a,
+    .my-account a{
+        font-size: 12px;
+        color: #2a2a2a;
+        
+    }
+
+    .quick-links a:hover,
+    .my-account a:hover {
+        color: #fd2e2e;
+    }
+
+    .page6A form{
+        padding: 2% 0;
+    }
+
+    .signupA{
+        width: 96%;
+        padding: 3% 2%;
+        text-align: center;
+    }
+    
+    .sign-up-input input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 4%;
+        margin-bottom: 4%;
+    }
+    
+    .quick-linksA li div,
+    .my-accountA li div{
+        display: inline-block;
+        float: left;
+    }
+    
+    .quick-linksA li p,
+    .my-accountA li p{
+        margin-left: 25px;
+        text-align: left;
+    }
+    
+    .quick-linksA li a,
+    .my-accountA li a{
+        color: #2a2a2a;
+    }
+    
+    .quick-linksA li a:hover,
+    .my-accountA li a:hover{
+        color: #fd2e2e;
+    }
+    
+    footer{
+        line-height: 50px;
+    }
+    
+    
+    .footer-nav{
+        font-size: 80%;
+    }
+    
+    .footer-nav{
+        margin-left: 138px;
+    }
+    
+    .footer-content{
+        font-size: 58%;
+    }
+    
+
+}
