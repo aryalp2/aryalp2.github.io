@@ -15,3 +15,9 @@ li{
 section{
     display: block;
 }
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+}
