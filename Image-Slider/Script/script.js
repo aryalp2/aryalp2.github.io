@@ -127,6 +127,6 @@ class Slider {
 }
 
 Slider.register(".image-slider", {
-  width: 800,
-  height: 533
+  width: 600,
+  height: 400
 });
