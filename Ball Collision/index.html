@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ball Collision</title>
+
+    <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="main-wrapper">
+
+    </div>
+
+    <script type="text/javascript" src="Script/Ball.js"></script>
+    <script type="text/javascript" src="Script/Game.js"></script>
+
+    <script>
+        var prefferedLocation = [-3,-2,-1,1,2,3];
+        var ballWidth = 20;
+        var main = document.getElementsByClassName('main-wrapper')[0];
+        var newGame = new Game(main,30);
+        newGame.moveBalls();
+    </script>
+</body>
+</html>
