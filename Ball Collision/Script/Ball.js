@@ -1,6 +1,8 @@
 class Ball {
     constructor(mainElement, diameter){
         this.mainElement=mainElement;
+        this.prevBallX = 0;
+        this.prevBallY = 0;
         this.ballX=0;
         this.ballY=0;
         this.dx = 0;
@@ -13,16 +15,18 @@ class Ball {
         //Removing overlap of two balls
         while (true){
             var randomX = randomNumberGenerator(0, 1200 - this.diameter);
-            if (randomX >= (this.ballX + 2 * this.diameter)){
-                this.ballX = randomNumberGenerator(0, 1200 - this.diameter);
+            if (randomX !== (this.prevballX + this.diameter)){
+                this.ballX = randomX;
+                this.prevBallX = randomX;
                 break;
             }
         }
 
         while (true){
             var randomY = randomNumberGenerator(0, 1000-this.diameter);
-            if (randomY >= (this.ballY + 2 * this.diameter)){
-                this.ballY = randomNumberGenerator(0,1000-this.diameter);
+            if (randomY !== (this.prevBallY + this.diameter)){
+                this.ballY = randomY;
+                this.prevBallY = randomY;
                 break;
             }
         }
