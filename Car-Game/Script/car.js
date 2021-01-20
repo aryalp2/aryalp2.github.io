@@ -18,9 +18,7 @@ class villainCar extends Car{
 
 
     drawbarrierCar(){
-        
-        var randomImageGeneration = randomNumGenerator(1,7);
-        this.img.src = `../Images/villain${randomImageGeneration}.png`;
+        this.img.src = '../Images/villain' + randomNumGenerator(1, 7)+ '.png';
         
         var that=this;
         this.img.onload = function () {
