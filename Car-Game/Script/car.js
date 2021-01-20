@@ -18,7 +18,7 @@ class villainCar extends Car{
 
 
     drawbarrierCar(){
-        this.img.src = '/illain' + randomNumGenerator(1, 7)+ '.png';
+        this.img.src = 'villain' + randomNumGenerator(1, 7)+ '.png';
         
         var that=this;
         this.img.onload = function () {
@@ -62,7 +62,7 @@ class heroCar extends Car{
         this.barrierCars = barrierCars;
         this.drawheroCar();
         this.score = score;
-        this.img.src = './player.png';
+        this.img.src = 'player.png';
         setInterval(function(){
             document.onkeydown = this.onkeyStroke.bind(this);
         }.bind(this), 50);
