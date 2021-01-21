@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird</title>
+</head>
+<body>
+  <div id="wrapper">
+    <canvas id="canvas" width="650" height="500"></canvas>
+  </div>
+  <script>
+    function randomNumGenerator(num1, num2){
+      min = Math.ceil(num1);
+      max = Math.floor(num2);
+      return Math.floor((Math.random() * (max - min)) + min )
+    }
+
+    let wrapper = document.getElementById('wrapper');
+    const SPACE = 32;
+    const CANVAS_WIDTH = 650;
+    const CANVAS_HEIGHT = 500;
+    const GRAVITY = 1.11;
+
+  </script>
+  <script src="Script/game.js"></script>
+  <script src="Script/bird.js"></script>
+  <script src="Script/obstacle.js"></script>
+</body>
+</html>
