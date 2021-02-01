@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/grid.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+        <title>Sorting Visualizer</title>
+    </head>
+    
+    <body>
+        <header>
+            <p>Sorting Algorithm</p>
+        </header>
 
+        <section class="row">
+            <div class="col span-1-of-6 side-panel" id="">
+                <ul class="algorithms">
+                    <li><a href="#">Bubble Sort</a></li>
+                    <li><a href="#">Merge Sort</a></li>
+                    <li><a href="#">Quick Sort</a></li>
+                    <li><a href="#">Selection Sort</a></li>
+                    <li><a href="#">Heap Sort</a></li>
+                    <li><a href="#">Insertion Sort</a></li>
+                    
+                </ul>
+                <ul>
+                    <li id = "arrayGenerate"><a href="#">Generate Random Array</a></li>
+                    <li>Size of Array</li>
+                    <li><input id="arraySize" type="range" min=20 max=400 step=1 value=140></li>
+                    <li>Speed of Animation</li>
+                   <li><input id="arraySpeed" type="range" min=1 max=5 step=1 value=3></li>
+                   
+                </ul>
+            </div>
+            <div class="col span-5-of-6">
+                <div id="array-container">
+
+                </div>
+            </div>
+            
+        </section>
+        <script src="Script/script.js"></script>
+        <script src="Script/animation.js"></script>
+        <script src="Script/basesort.js"></script>
+        <script src="Script/bubble.js"></script>
+        <script src="Script/selection.js"></script>
+        <script src="Script/merge.js"></script>
+        <script src="Script/quick.js"></script>
+        <script src="Script/heap.js"></script>
+        <script src="Script/insertion.js"></script>
+    </body>
+</html>
