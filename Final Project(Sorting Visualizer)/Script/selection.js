@@ -1,43 +1,45 @@
 class SelectionSort extends ParentSort{
 
-    constructor(){
+    constructor(container){
         super();
+        this.arraySize = this.getArraySize(container);
+        this.barHeights = this.getBarHeightAndProperty(container)[0];
+        this.barProperty = this.getBarHeightAndProperty(container)[1];
+        cumulativeDelay = 0;
         this.selectionSort();
     }
 
     selectionSort() {
-        c_delay = 0;
-
-        for (var i = 0; i < arraySize - 1; i++){
-            this.barVisualizationUpdate(barProperty[i], barHeights[i], 'red');
-            let minIndex = i;
-            for (var j = i + 1 ; j < arraySize; j++){
-                this.barVisualizationUpdate(barProperty[j], barHeights[j], 'yellow');
+        for (var i = 0; i < this.arraySize - 1; i++){
+            this.updateBarVisualization(this.barProperty[i], this.barHeights[i], 'red');
+            var minIndex = i;
+            for (var j = i + 1 ; j < this.arraySize; j++){
+                this.updateBarVisualization(this.barProperty[j], this.barHeights[j], 'yellow');
                 
-                if (barHeights[j] < barHeights[minIndex]){
+                if (this.barHeights[j] < this.barHeights[minIndex]){
                     if (minIndex != i){
-                        this.barVisualizationUpdate(barProperty[minIndex], barHeights[minIndex], ' #cdcdcd');
+                        this.updateBarVisualization(this.barProperty[minIndex], this.barHeights[minIndex], ' #cdcdcd');
                     }
                     minIndex = j;
 
-                    this.barVisualizationUpdate(barProperty[j], barHeights[j], 'red');
+                    this.updateBarVisualization(this.barProperty[j], this.barHeights[j], 'red');
                 } else {
-                    this.barVisualizationUpdate(barProperty[j],barHeights[j]," #cdcdcd");
+                    this.updateBarVisualization(this.barProperty[j], this.barHeights[j]," #cdcdcd");
                 }
 
             }
             if (minIndex != i){
-                var temp = barHeights[minIndex];
-                barHeights[minIndex] = barHeights[i];
-                barHeights[i] = temp;
+                var temp = this.barHeights[minIndex];
+                this.barHeights[minIndex] = this.barHeights[i];
+                this.barHeights[i] = temp;
 
-                this.barVisualizationUpdate(barProperty[minIndex], barHeights[minIndex], 'red');
-                this.barVisualizationUpdate(barProperty[i], barHeights[j], 'red');
-                this.barVisualizationUpdate(barProperty[minIndex], barHeights[minIndex], ' #cdcdcd');
+                this.updateBarVisualization(this.barProperty[minIndex], this.barHeights[minIndex], 'red');
+                this.updateBarVisualization(this.barProperty[i], this.barHeights[j], 'red');
+                this.updateBarVisualization(this.barProperty[minIndex], this.barHeights[minIndex], ' #cdcdcd');
             }
-            this.barVisualizationUpdate(barProperty[i], barHeights[i], 'green');
+            this.updateBarVisualization(this.barProperty[i], this.barHeights[i], 'green');
             
         }
-        this.barVisualizationUpdate(barProperty[i],barHeights[i],"green");
+        this.updateBarVisualization(this.barProperty[i], this.barHeights[i], "green");
     }
 }
