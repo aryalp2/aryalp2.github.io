@@ -84,23 +84,20 @@ function visualizeAlgorithms(){
 
 function disableLink(){
     for (var i = 0; i < sortingAlgorithms.length; i++){
-        sortingAlgorithms[i].classList = [];
-        sortingAlgorithms[i].classList.add("butt_locked");
         sortingAlgorithms[i].removeEventListener('click', visualizeAlgorithms);
-        inputArraySize.disabled=true;
-        inputArrayGeneration.disabled=true;
-        inputArraySpeed.disabled=true;
+        inputArrayGeneration.removeEventListener('click', generateArray);
+        inputArraySize.disabled = true;
+        inputArraySpeed.disabled = true;
     }
 }
+
 
 function enableLink(){
     window.setTimeout(function(){
         for (var i = 0; i <sortingAlgorithms.length; i++){
-            sortingAlgorithms[i].classList=[];
-            sortingAlgorithms[i].classList.add('butt_unselected');
             sortingAlgorithms[i].addEventListener('click', visualizeAlgorithms);
+            inputArrayGeneration.addEventListener('click', generateArray)
             inputArraySize.disabled=false;
-            inputArrayGeneration.disabled=false;
             inputArraySpeed.disabled=false;
         }
     }, cumulativeDelay = cumulativeDelay + delay_time);
