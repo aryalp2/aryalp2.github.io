@@ -14,6 +14,5 @@ class Visualization {
 
 var visual = new Visualization();
 var delay_time = 10000 / (Math.floor(this.arraySize / 10) * speed);
-var cumulativeDelay = 0; 
 console.log(cumulativeDelay);
 inputArraySpeed.addEventListener('input', visual.visualizationSpeed);
