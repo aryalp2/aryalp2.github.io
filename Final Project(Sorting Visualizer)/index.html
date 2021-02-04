@@ -7,31 +7,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
         <title>Sorting Visualizer</title>
     </head>
     
     <body>
         <header>
-            <p>Sorting Algorithm</p>
+            <h1>Sorting Algorithm Visualizer</h1>
         </header>
 
-        <section class="row">
+        <section class="row clearfix">
             <div class="col span-1-of-6 side-panel" id="">
-                <ul class="algorithms">
-                    <li><a href="#">Bubble Sort</a></li>
+                <ul class="class-algorithms">
                     <li><a href="#">Merge Sort</a></li>
                     <li><a href="#">Quick Sort</a></li>
+                    <li><a href="#">Bubble Sort</a></li>
                     <li><a href="#">Selection Sort</a></li>
                     <li><a href="#">Heap Sort</a></li>
                     <li><a href="#">Insertion Sort</a></li>
                     
                 </ul>
-                <ul>
+                <ul class="class-array-generation">
                     <li id = "arrayGenerate"><a href="#">Generate Random Array</a></li>
                     <li>Size of Array</li>
-                    <li><input id="arraySize" type="range" min=20 max=400 step=1 value=140></li>
+                    <li><input id="arraySize" type="range" min=20 max=400 step=1 value=110></li>
                     <li>Speed of Animation</li>
-                   <li><input id="arraySpeed" type="range" min=1 max=5 step=1 value=3></li>
+                   <li><input id="arraySpeed" type="range" min=1 max=5 step=1 value=2></li>
                    
                 </ul>
             </div>
@@ -42,6 +44,60 @@
             </div>
             
         </section>
+
+
+        <section>
+            <div class="row">
+                <div class="col span-1-of-7">
+                    <ion-icon id="icon-play" name="play">Play</ion-icon>
+                    <div id="arrayGenerateB">Generate Array</div>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Bubble</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(n<sup>2</sup>)</p>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Merge</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(nlog(n))</p>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Quick</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(nlog(n))</p>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Selection</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(n<sup>2</sup>)</p>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Heap</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(nlog(n))</p>
+                </div>
+                <div class="col span-1-of-7">
+                    <p>Insertion</p>
+                    <div class="array-containerB">
+
+                    </div>
+                    <p>&#952;(n<sup>2</sup>)</p>
+                </div>
+            </div>
+        </section>
+
+
         <script src="Script/script.js"></script>
         <script src="Script/animation.js"></script>
         <script src="Script/basesort.js"></script>
@@ -51,5 +107,6 @@
         <script src="Script/quick.js"></script>
         <script src="Script/heap.js"></script>
         <script src="Script/insertion.js"></script>
+        <script src="Script/timecomplexity.js"></script>
     </body>
 </html>
