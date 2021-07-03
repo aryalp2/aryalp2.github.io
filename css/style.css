@@ -152,6 +152,10 @@ header {
 	justify-content: space-between;
 	padding: 1em;
 	align-items: center;
+	position: fixed;
+   	width: 100%;
+    	z-index: 100;
+    	background: var(--clr-light);
 }
 
 .logo {
